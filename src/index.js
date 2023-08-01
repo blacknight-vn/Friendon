@@ -5,7 +5,7 @@ import {useEffect} from 'react';
 function App() {
 
     useEffect(() => {
-        axios.get('https://bakcend-f3h5.onrender.com/')
+        axios.get('https://aaaaa-oo4r.onrender.com/')
         // axios.get('http://localhost:8080/')
         .then((response) => {
             console.log(response.data.message)
